@@ -1,0 +1,152 @@
+.heading{
+    text-align: center;
+    padding:25px 0;
+    margin:10px 0;
+}
+.heading h1{
+    font-size: 47px;
+}
+.heading p{
+    color:#4b5563;
+}
+.leftsec1{
+    margin:10px;
+}
+/*.Contactsec2{
+    display:grid;
+    grid-template-columns: 200px;
+    gap:20%;
+    display:inline-block;
+*/
+.icons2{
+    background-color: #bec3f0;
+    padding:13px;
+    margin:16px;
+    color:#2b40e2;
+    font-size: 26px;
+    width:50px;
+    height:50px;
+    border-radius: 12px;
+}
+.icons2:hover{
+    background-color: #2b40e2;
+    padding:15px;
+    margin:16px;
+    color:#fff;
+    width:50px;
+    height:50px;
+}
+.contactinfo2{
+    display :block;
+    padding:13px;
+}
+.box{
+    display :flex;
+    justify-content:left;
+    max-width: 500px;
+    align-items: top;;
+}
+.content2 {
+    margin:16px;
+    padding:5px;
+}
+.stn .leftsec1 h1{
+    margin:0 24px;
+}
+.content2 p{
+    padding:5px;
+}
+.Contactsec2 p{
+    color:#4b5563;
+   
+}
+.follow{
+    margin:15px;
+    padding:13px;
+}
+.icon{
+    display:inline-block;
+    margin:15px;
+    width:50px;
+    height:50px;
+    border: 2px solid #4b5563;
+    padding:13px;
+    background-color: #a4a7ab77;
+}
+.icon i:hover {
+    width:50px;
+    font-weight: 700;
+    font-size: 26px;
+    height:50px;
+}
+.userinput{
+    background-color: #f9fafb;
+    width: 800px;
+    height: 700px;
+    border:3px solid;
+    border:none;
+    margin:2px 25px;
+    padding:5px 45px;
+}
+/*.collectinfo div ,h1{
+   padding: 15px;
+}
+label,option{
+  margin:4px;
+}
+input{
+    width:10%;
+}*/
+form{
+    box-sizing: border-box;
+    margin:30px;
+    
+}
+.stn{
+   display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:30px; 
+}
+label{
+    color:#37415c;
+}
+input,select,textarea{
+    width:100%;
+    height: 50px;
+    padding: 4px;
+    margin:8px;
+    border-radius: 10px;
+    border:1px solid #4b5563;
+}
+.userinput h1{
+    margin:18px;
+    text-align: left;
+}
+.name{
+    padding:4px 6px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:20px 20px;
+}
+.name input{
+    width:300px;
+    height: 50px;
+    padding: 4px;
+    margin:8px;
+    border-radius: 10px;
+    border:1px solid #4b5563;
+}
+textarea{
+    height:150px
+}
+button{
+    align-items: center;
+}
+.error{
+    font-size:27px;
+    border:3px solid red;
+    border-radius: 23px;
+    margin:13px;
+    padding:12px;
+    text-align:center;
+}

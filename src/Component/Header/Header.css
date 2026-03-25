@@ -1,0 +1,89 @@
+header{
+    padding:10px 30px;
+    background-color: rgb(205, 213, 255);
+    /*margin:30px;*/
+    height:100px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.logo{
+    padding:23px;
+    margin:14px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*.logoimgleft{
+     display:flex;
+    justify-content: space-around;
+    align-items: center;
+}*/
+.logo img{
+    padding:10px;
+    width: 150px;
+    height:100px;
+}
+.logo i{
+    padding:20px;
+    margin:12px;
+    font-size:50px;
+}
+.toggle{
+   display: none;
+}
+header ul li{
+    list-style-type: none;
+    margin: 3px;
+    padding:10px;
+    display:inline-block;
+}
+header ul li:hover{
+    background-color:#8869bf;
+    transition: all .6s ease-in-out;
+}
+header a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+header ul li:hover a{
+    color:#fff;
+}
+header .Supernav{
+    position: relative;
+}
+header .Supernav:hover .Subnav{
+    display:block;
+}
+header .Subnav{
+    position:absolute;
+    top:44px;
+    left:0;
+    display: none;
+}
+header .Subnav li{
+    width:200px;
+    background-color: #8869bf;
+}
+.contentright ul li:hover{
+    background-color:inherit;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    header{
+        display:block;
+        padding:10px 0;
+        height:100%;
+        width:100%;
+    }
+    .toggle{
+        display:block;
+    }
+    header ul li {
+        display:block;
+       
+    }
+}
