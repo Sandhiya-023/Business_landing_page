@@ -19,7 +19,7 @@ export default function Pricingsec() {
         </div>
         </div>
       </div>*/}
-      <div className='box'>
+      <div className='pricebox'>
       <Pricingpart
         head={<h3>Starter</h3>}
         subhead={<p>Perfect for small teams getting started</p>}
@@ -35,9 +35,12 @@ export default function Pricingsec() {
          <li><i class="bi bi-x"></i>Up to 5 team members</li>
          </ul>
         }
+       
+        
         button={<Btn Mybtn="Get Started" />}/>
-        <div className='button'>
-          <Btn Mybtn="Most Popular"/>
+        
+    
+        <div>
         <Pricingpart
         head={<h3>Pro</h3>}
         subhead={<p>For growing teams that need more</p>}
@@ -53,8 +56,9 @@ export default function Pricingsec() {
          <li><i class="bi bi-x"></i>Custom integration</li>
          </ul>
         }
-        button={<Btn Mybtn="Get Started" />}/>
-        </div>
+        button={<Btn Mybtn="Get Started" />}
+        />
+    </div>
         <Pricingpart
         head={<h3>Enterprise</h3>}
         subhead={<p>For large organizations</p>}
@@ -68,10 +72,8 @@ export default function Pricingsec() {
           <li><i class="bi bi-check-lg"></i>24/7 dedicated support</li>
            <li><i class="bi bi-check-lg"></i>API access</li>
             <li><i class="bi bi-check-lg"></i>Custom integrations</li>
-         
-         
-         </ul>
-        }
+          </ul>
+          }
         button={<Btn Mybtn="Get Started" />}/>
         </div>
          {/*<div className="head">

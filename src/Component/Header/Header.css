@@ -75,15 +75,60 @@ header .Subnav li{
 @media (min-width: 320px) and (max-width: 480px){
     header{
         display:block;
-        padding:10px 0;
-        height:100%;
-        width:100%;
+        height:auto;
+        width: 100%;
+        margin: 3px 0;
     }
     .toggle{
         display:block;
     }
     header ul li {
         display:block;
-       
     }
+    .logo{
+        display:block;
+        padding:2px 13px;
+        margin:1px 0;
+    }
+    .toggle i{
+      font-size: 27px;
+      font-weight: 900;
+    }
+    .logo img {
+    /*padding: 3px;*/
+    }
+    .logoimgleft img{
+        /*position:relative;*/
+        width:64%;
+        padding: 2px;
+        height: 112px;
+        margin: 2px 0px;
+    }
+    /*.navbar {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar.active {
+        display: block;
+    }*/
+     .navbar,
+    .contentright {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar.active,
+    .contentright.active {
+        display: block;
+    }
+
+    .contentright ul li {
+        display: block;
+        padding: 10px;
+    }
+
+
+    
 }

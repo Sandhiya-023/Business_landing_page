@@ -134,5 +134,8 @@
     padding:14px;
 }
 @media (min-width:320px) and (max-width:480px) {
+    .list{
+        padding:0% !important;
+    }
     
 }

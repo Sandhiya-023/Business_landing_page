@@ -124,11 +124,11 @@ const handleSubmit=(e)=>{
                   <div className="userinput">
                       <h1>Send us a Message </h1>
                     <form onSubmit={handleSubmit}>
-                      <div className="name">
+                     <div className="name">
                     <div>
                          <label htmlFor="name">First Name</label>
                         <input type="text" name="fname" value={formData.fname}onChange={handleChange}/>
-                        {/*{errors.fname && <p className="error">{errors.fname}</p>}*/}
+                        {errors.fname && <p className="error">{errors.fname}</p>}
                     </div>
                     <div>
                         <label htmlFor="name">Last Name</label>
@@ -158,8 +158,8 @@ const handleSubmit=(e)=>{
                     </div>
                     <Btn Mybtn="Send as a message"/>
                     </form>
-                 </div>   
-                </div>
+                 </div>* 
+               </div>
                 <hr></hr>
                <div className="feature">
       <div className="heading">

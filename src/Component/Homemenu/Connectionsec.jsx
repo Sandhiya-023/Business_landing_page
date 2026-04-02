@@ -8,9 +8,12 @@ export default function Connectionsec() {
         <div className="connection">
           <h1>Ready to transform your workflow?</h1>
           <p>Join thousands of teams already using SaaSify to build better products, faster.</p>
-          <Btn2 Mybtn={"Start Free Trial"}/>
-          <button>Contact Sales</button>
-        </div>
+        
+          <div className='button'>
+           <Btn2 Mybtn={"Start Free Trial"}/>
+           <Btn Mybtn={"Contact Sales"}/>
+          </div>
+        </div>  
     </section>
   )
 }

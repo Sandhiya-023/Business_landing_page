@@ -125,7 +125,7 @@
 }
 /*connectionsec*/
 .connectionsec{
-    background-color: #6328c2;
+    background-color: #89dcee;
     padding:75px 60px;
     display:flex;
     justify-content: center;
@@ -138,7 +138,7 @@
     margin: 15px 5px;
     background-color: #ffffff00;
 }
-button{
+/*button{
     padding: 10px 30px;
     background-color: inherit;
     border: 2px solid #e9e2e2bd;
@@ -149,7 +149,7 @@ button{
 }
 button:hover{
     border:2px solid #fff;
-}
+}*/
 .connection h1{
     padding:15px;
     font-size: 46px;
@@ -218,25 +218,50 @@ span {
     box-sizing: content-box;
 }
 /*pricingsec*/
-@media(min-width:320px) and(max-width:480px){
+.pricebox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:320px) and (max-width:480px){
+    body{
+        width:365px;
+    }
     .herosection{
         display:block;
-        padding:20px;
+        margin: 20px 0;
+        padding: 60px 0;
+        width: 100%;
     }
-     .herocontent{
-        width:100%;
-        padding:20px;
+    .herocontent{
+        width: 100%;
+        
     }
-     .countpart{
-          display:grid;
-    grid-template-columns:1fr;
-    gap:15px;
+     .herocontent h1{
+        font-size: 21px;
+    }
+    .herocontent h4{
+        width:278px;
+    }
+    .homeadsec{
+        margin: 10px 0;
+        padding: 40px 0;
+    } 
+    .countpart{
+          background-color: #dcdcb4;
+          display: block;
+         width: 100%;
     }
      .countbox{
         width:100%;
+        margin: 10px;
     }
     .addimg img{
-        width:90%;
+        width: 100%;
+    }
+
+    .homefeature{
+        padding: 60px 0;
     }
 
     .features{
@@ -256,7 +281,33 @@ span {
     .connection h1{
         font-size:28px;
     }
-
+     .heading{
+        width: 100%;
+    margin: 15px 0;
+    }
+    .heading h1 {
+        font-size: 22px !important;
+        padding: 1px;
+    }
+    .heading p{
+        padding: 10px;
+    }
+    .pricingbox{
+        width: 100%;
+        margin:6px;
+        padding:6px 0px;
+        gap:10px;
+    
+    }
+    .pricebox{
+        display: block;
+        width: 300px;
+        height: max-content;
+    }
+    .box{
+        width: 100%;
+        margin: 10px 0;
+    }
     .monthbtn{
         display:block;
         margin:10px auto;
